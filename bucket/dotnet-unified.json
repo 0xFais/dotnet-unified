@@ -1,0 +1,18 @@
+{
+  "version": "0.3.1",
+  "description": "Native unified .NET SDK and runtime links from Scoop packages",
+  "homepage": "https://github.com/0xfais/dotnet-unified",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "hash": "b02c7b40e8f38a39984e1fe500b66cfd6cb1ebddad4e62209a8de17f55b11aa6",
+      "url": "https://github.com/0xfais/dotnet-unified/releases/download/v0.3.1/dotnet-unified-0.3.1-win-x64.zip"
+    }
+  },
+  "bin": "dotnet-unified.exe",
+  "persist": "data",
+  "notes": [
+    "Run status, sync --dry-run, sync, doctor.",
+    "Re-run sync after SDK updates."
+  ]
+}
